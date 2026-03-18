@@ -3,6 +3,7 @@
 ### What's Changed
 
 - cover more lock files
+- update package metadata
 
 ## 0.3.0 (2025-06-19)
 
