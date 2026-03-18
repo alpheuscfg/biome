@@ -1,0 +1,46 @@
+{
+    "name": "@apst/biome",
+    "version": "0.3.0",
+    "description": "A shareable Biome configuration",
+    "keywords": [
+        "biomejs",
+        "biome",
+        "configuration",
+        "config",
+        "ts",
+        "typescript",
+        "js",
+        "javascript"
+    ],
+    "homepage": "https://github.com/alpheuscfg/biome",
+    "bugs": "https://github.com/alpheuscfg/biome/issues",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/alpheuscfg/biome.git"
+    },
+    "license": "MIT",
+    "author": {
+        "name": "Alpheus",
+        "email": "contact@alphe.us"
+    },
+    "type": "module",
+    "exports": {
+        ".": "./biome.jsonc",
+        "./package.json": "./package.json"
+    },
+    "main": "./biome.jsonc",
+    "files": [
+        "biome.jsonc"
+    ],
+    "devDependencies": {
+        "@biomejs/biome": "2.0.0"
+    },
+    "peerDependencies": {
+        "@biomejs/biome": "^2.0.0"
+    },
+    "peerDependenciesMeta": {
+        "@biomejs/biome": {
+            "optional": true
+        }
+    }
+}

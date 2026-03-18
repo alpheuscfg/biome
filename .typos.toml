@@ -1,0 +1,10 @@
+[files]
+extend-exclude = [
+    ".git/",
+    "__MACOSX/",
+    ".DS_Store",
+    "node_modules/",
+    "biome.jsonc",
+    "*.log",
+    "pnpm-debug.log*",
+]
