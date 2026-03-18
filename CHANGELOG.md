@@ -1,6 +1,6 @@
 ## Next
 
-### What's Changed
+### 0.3.1 (2026-03-18)
 
 - cover more lock files
 - update package metadata

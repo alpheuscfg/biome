@@ -1,6 +1,6 @@
 {
     "name": "@apst/biome",
-    "version": "0.3.0",
+    "version": "0.3.1",
     "description": "A shareable Biome configuration",
     "keywords": [
         "biomejs",
