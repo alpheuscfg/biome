@@ -1,8 +1,12 @@
 ## Next
 
+### What's New
+
 - separate import types
 
 ## 0.3.1 (2026-03-18)
+
+### What's Changed
 
 - cover more lock files
 - update package metadata
