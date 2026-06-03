@@ -51,12 +51,20 @@
                 "noVoidTypeReturn": "off"
             },
             "security": {
-                // dangerouslySetInnerHTML={{ __html: '' }}
+                // dangerouslySetInnerHTML={{ __html: "" }}
                 "noDangerouslySetInnerHtml": "off"
             },
             "style": {
                 // let a: number = 0;
-                "noInferrableTypes": "off"
+                "noInferrableTypes": "off",
+                // import type { Foo } from "foo";
+                // import { bar } from "bar";
+                "useImportType": {
+                    "level": "error",
+                    "options": {
+                        "style": "separatedType"
+                    }
+                }
             },
             "suspicious": {
                 // let a: any;
