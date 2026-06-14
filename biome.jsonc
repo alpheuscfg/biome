@@ -46,6 +46,10 @@
         ],
         "rules": {
             "recommended": true,
+            "a11y": {
+                // <svg><title></title></svg>
+                "noSvgWithoutTitle": "off"
+            },
             "correctness": {
                 // return void 0
                 "noVoidTypeReturn": "off"

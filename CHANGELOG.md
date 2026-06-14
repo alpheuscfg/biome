@@ -2,7 +2,8 @@
 
 ### What's New
 
-- separate import types
+- separate import types via `useImportType`
+- disable `noSvgWithoutTitle`
 
 ## 0.3.1 (2026-03-18)
 
